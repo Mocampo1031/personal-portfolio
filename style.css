@@ -6,3 +6,51 @@ body{
     margin: 0;
     padding: 0;
 }
+.topnav{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.topnav a{
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+#bio{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+.text_right, .text_left{
+    background-color: white;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+img, video{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+}
